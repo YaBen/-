@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        function testGame(){
+            var flag=confirm('你四不四傻？？？')
+            if(flag){
+                alert('你承认我就放心了！！')
+            }
+            else{
+                testGame()
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="button" onclick="testGame()"value="小游戏">
+</body>
+</html>
